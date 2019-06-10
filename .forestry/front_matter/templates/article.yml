@@ -1,4 +1,29 @@
 ---
 label: article
 hide_body: false
-fields: []
+fields:
+- name: titre
+  type: text
+  config:
+    required: false
+  label: titre
+  description: le titre
+- name: corps
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: corps
+  description: le corps
+- name: date_1
+  type: datetime
+  label: date 1
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
