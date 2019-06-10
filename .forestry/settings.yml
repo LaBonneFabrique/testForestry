@@ -7,7 +7,6 @@ sections:
 - type: document
   path: bib
   label: bib
-  match: "**/*"
 - type: directory
   path: ''
   label: bob
